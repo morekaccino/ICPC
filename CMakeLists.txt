@@ -3,4 +3,6 @@ project(ICPC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ICPC main.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "C:\\Users\\mrkaz\\Documents\\Codes\\ICPC\\bin")
+
+add_executable(ICPC cpp_basics.cpp)
